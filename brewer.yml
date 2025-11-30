@@ -1,8 +1,8 @@
 Brewer:
-  fullname: Brewer
+  fullname: 醸造家
   shortname: Br
   FullDescription:
-  - "Earns money brewing potions."
+  - "薬屋で生計を立てましょう。"
   ChatColour: LIGHT_PURPLE
   chat-display: full
   max-level: 200
@@ -22,79 +22,80 @@ Brewer:
       - Brew;redstone;2
       - Brew;sugar;2
       RewardCommands:
-      - eco give [playerName] 100
+      - eco give [playerName] 500
+      - excrates give key crateKey [playerName] 1 # ★ 確定キーを使用
       - msg [playerName] Completed quest!
       RewardDesc:
       - Brew some stuff and get money
-      - Get 100 for this!
+      - Get 500 bucks and a Crate Key!
   Gui:
     ItemStack: brewing_stand
   Brew:
     nether_wart:
-      income: 6.0
+      income: 10.0 # 6.0から修正
       points: 6.0
       experience: 6.0
     redstone:
-      income: 6.0
+      income: 15.0 # 6.0から修正
       points: 6.0
       experience: 6.0
     glowstone_dust:
-      income: 8.0
+      income: 20.0 # 8.0から修正
       points: 8.0
       experience: 8.0
     fermented_spider_eye:
-      income: 12.0
+      income: 30.0 # 12.0から修正
       points: 12.0
       experience: 12.0
     gunpowder:
-      income: 6.0
+      income: 20.0 # 6.0から修正
       points: 6.0
       experience: 6.0
     dragon_breath:
-      income: 25.0
+      income: 150.0 # 25.0から修正: エンドの危険度を反映
       points: 25.0
       experience: 25.0
     sugar:
-      income: 7.0
+      income: 15.0 # 7.0から修正
       points: 7.0
       experience: 7.0
     rabbit_foot:
-      income: 18.0
+      income: 40.0 # 18.0から修正: 希少性を反映
       points: 18.0
       experience: 18.0
     glistering_melon_slice:
-      income: 10.0
+      income: 25.0 # 10.0から修正
       points: 10.0
       experience: 10.0
     spider_eye:
-      income: 9.0
+      income: 20.0 # 9.0から修正
       points: 9.0
       experience: 9.0
     pufferfish:
-      income: 14.0
+      income: 35.0 # 14.0から修正
       points: 14.0
       experience: 14.0
     magma_cream:
-      income: 12.0
+      income: 30.0 # 12.0から修正
       points: 12.0
       experience: 12.0
     golden_carrot:
-      income: 14.0
+      income: 35.0 # 14.0から修正
       points: 14.0
       experience: 14.0
     blaze_powder:
-      income: 12.0
+      income: 25.0 # 12.0から修正
       points: 12.0
       experience: 12.0
     ghast_tear:
-      income: 22.0
+      income: 50.0 # 22.0から修正
       points: 22.0
       experience: 22.0
     turtle_helmet:
-      income: 12.0
+      income: 30.0 # 12.0から修正
       points: 12.0
       experience: 12.0
     phantom_membrane:
-      income: 12.0
+      income: 30.0 # 12.0から修正
       points: 12.0
       experience: 12.0

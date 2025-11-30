@@ -22,11 +22,12 @@ Miner:
       - Break;granite;50
       - Break;sandstone;50
       RewardCommands:
-      - eco give [playerName] 400
+      - eco give [playerName] 500
+      - crates key give [playerName] crateKey 1
       - msg [playerName] Completed quest!
       RewardDesc:
       - Break blocks and get money
-      - Get 400 for this!
+      - Get 500 for this!
   Gui:
     ItemStack: wooden_pickaxe
   TNTBreak:
@@ -226,6 +227,6 @@ Miner:
       experience: -35
   Kill:
     Player:
-      income: 7.5
-      points: 7.5
-      experience: 7.5
+      income: -1500
+      points: -900
+      experience: -750

@@ -1,8 +1,8 @@
 Digger:
-  fullname: Digger
+  fullname: 整地家
   shortname: D
   FullDescription:
-  - "Earns money for terraforming the world."
+  - "整地でお金が手に入る夢のような生活。"
   ChatColour: GOLD
   chat-display: full
   max-level: 200
@@ -18,53 +18,49 @@ Digger:
     '1':
       Name: Ground Mole
       Objectives:
-      - Break;dirt;50
-      - Break;grass_block;50
-      - Break;gravel;50
+      - Break;dirt;80
+      - Break;grass_block;80
+      - Break;gravel;80
       RewardCommands:
-      - eco give [playerName] 100
+      - eco give [playerName] 500
+      - crates key give [playerName] crateKey 1
       - msg [playerName] Completed quest!
       RewardDesc:
       - Dig blocks and get money
-      - Get 100 for this!
+      - Get 500 for this!
   Gui:
     ItemStack: wooden_shovel
   Break:
     red_sand:
-      income: 1
+      income: 5.0
       points: 1
       experience: 1
     coarse_dirt:
-      income: 1
+      income: 3.0
       points: 1
       experience: 1
     dirt:
-      income: 0.25
+      income: 3.0
       points: 0.25
       experience: 0.25
     grass_block:
-      income: 0.3
+      income: 3.5
       points: 0.3
       experience: 0.3
     gravel:
-      income: 1
+      income: 5.0
       points: 1
       experience: 1.0
     sand:
-      income: 0.4
+      income: 5.0
       points: 0.4
       experience: 0.5
     clay:
-      income: 1
+      income: 5.0
       points: 1
       experience: 1.0
   Kill:
     Player:
-      income: 7.5
-      points: 7.5
-      experience: 7.5
-  custom-kill:
-    Digger:
-      income: 10.0
-      points: 10.0
-      experience: 10.0
+      income: -1500
+      points: -900
+      experience: -750

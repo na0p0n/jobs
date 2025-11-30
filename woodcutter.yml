@@ -22,34 +22,30 @@ Woodcutter:
       - Break;birch_log;50
       - Break;jungle_log;50
       RewardCommands:
-      - eco give [playerName] 100
+      - eco give [playerName] 500
+      - crates key give [playerName] crateKey 1
       - msg [playerName] Completed quest!
       RewardDesc:
       - Break logs and get money
-      - Get 100 for this!
+      - Get 500 for this!
   Gui:
     ItemStack: birch_log
   Break:
     materials:
-	- oak_log;15.0;1.0;1.0
-    - spruce_log;15.0;1.0;1.0
-    - birch_log;15.0;1.0;1.0
-    - jungle_log;15.0;1.0;1.0
-    - acacia_log;15.0;1.0;1.0
-    - dark_oak_log;15.0;1.0;1.0
-	- stripped_oak_log;11.25;0.75;0.25
-    - stripped_spruce_log;11.25;0.75;0.25
-    - stripped_birch_log;11.25;0.75;0.25
-    - stripped_jungle_log;11.25;0.75;0.25
-    - stripped_acacia_log;11.25;0.75;0.25
-    - stripped_dark_oak_log;11.25;0.75;0.25
+    - oak_log;15.0;1.0;1.0
+    - spruce_log;15.0;1.0;1.0
+    - birch_log;15.0;1.0;1.0
+    - jungle_log;15.0;1.0;1.0
+    - acacia_log;15.0;1.0;1.0
+    - dark_oak_log;15.0;1.0;1.0
+    - stripped_oak_log;11.25;0.75;0.25
+    - stripped_spruce_log;11.25;0.75;0.25
+    - stripped_birch_log;11.25;0.75;0.25
+    - stripped_jungle_log;11.25;0.75;0.25
+    - stripped_acacia_log;11.25;0.75;0.25
+    - stripped_dark_oak_log;11.25;0.75;0.25
   Kill:
     Player:
-      income: 7.5
-      points: 7.5
-      experience: 7.5
-  custom-kill:
-    Woodcutter:
-      income: 10.0
-      points: 10.0
-      experience: 10.0
+      income: -1500
+      points: -900
+      experience: -750
