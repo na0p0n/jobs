@@ -22,11 +22,11 @@ Miner:
       - Break;granite;50
       - Break;sandstone;50
       RewardCommands:
-      - eco give [playerName] 100
+      - eco give [playerName] 400
       - msg [playerName] Completed quest!
       RewardDesc:
       - Break blocks and get money
-      - Get 100 for this!
+      - Get 400 for this!
   Gui:
     ItemStack: wooden_pickaxe
   TNTBreak:
@@ -48,143 +48,143 @@ Miner:
       experience: 0.5
   Break:
     andesite:
-      income: 1
+      income: 5.0
       points: 1
       experience: 1
     stone:
-      income: 1
+      income: 5.0
       points: 1
       experience: 1
     deepslate:
-      income: 1.25
+      income: 6.0
       points: 1.25
       experience: 1.25
     granite:
-      income: 1
+      income: 5.0
       points: 1
       experience: 1
     diorite:
-      income: 1
+      income: 5.0
       points: 1
       experience: 1
     sandstone:
-      income: 0.15
+      income: 2.0
       points: 0.15
       experience: 0.2
     chiseled_sandstone:
-      income: 0.15
+      income: 2.0
       points: 0.15
       experience: 0.2
     cut_sandstone:
-      income: 0.15
+      income: 2.0
       points: 0.15
       experience: 0.2
     coal_ore:
-      income: 3
+      income: 20.0
       points: 2
       experience: 2
     deepslate_coal_ore:
-      income: 4
+      income: 22.0
       points: 3
       experience: 3
     redstone_ore:
-      income: 2.5
+      income: 30.0
       points: 2
       experience: 2
     deepslate_redstone_ore:
-      income: 3.5
+      income: 35.0
       points: 3
       experience: 3
     copper_ore:
-      income: 3.5
+      income: 35.0
       points: 3
       experience: 2
     deepslate_copper_ore:
-      income: 4.5
+      income: 40.0
       points: 4
       experience: 3
     iron_ore:
-      income: 3.5
+      income: 40.0
       points: 3
       experience: 2
     deepslate_iron_ore:
-      income: 4.5
+      income: 45.0
       points: 4
       experience: 3
     gold_ore:
-      income: 5
+      income: 60.0
       points: 4
       experience: 2
     deepslate_gold_ore:
-      income: 6
+      income: 65.0
       points: 5
       experience: 3
     lapis_ore:
-      income: 7.5
+      income: 75.0
       points: 6
       experience: 2
     deepslate_lapis_ore:
-      income: 8.5
+      income: 80.0
       points: 7
       experience: 3
     diamond_ore:
-      income: 10
+      income: 200.0
       points: 10
       experience: 10
     deepslate_diamond_ore:
-      income: 12.5
+      income: 220.0
       points: 12.5
       experience: 12.5
     emerald_ore:
-      income: 15
+      income: 250.0
       points: 15
       experience: 30
     deepslate_emerald_ore:
-      income: 17.5
+      income: 270.0
       points: 17.5
       experience: 35
     nether_quartz_ore:
-      income: 2.5
+      income: 30.0
       points: 2.5
       experience: 2.5
     obsidian:
-      income: 5
+      income: 100.0
       points: 5
       experience: 5
     cobblestone_wall:
-      income: 2.5
+      income: 5.0
       points: 2.5
       experience: 2.5
     mossy_cobblestone_wall:
-      income: 2.5
+      income: 5.0
       points: 2.5
       experience: 2.5
     nether_bricks:
-      income: 1.0
+      income: 5.0
       points: 1
       experience: 1.0
     nether_brick_stairs:
-      income: 3
+      income: 5.0
       points: 3
       experience: 3
     nether_brick_fence:
-      income: 1
+      income: 5.0
       points: 1
       experience: 1
     netherrack:
-      income: 0.1
+      income: 1.0
       points: 0.1
       experience: 0.1
     prismarine:
-      income: 2.5
+      income: 15.0
       points: 2.5
       experience: 2.5
     prismarine_bricks:
-      income: 2.5
+      income: 15.0
       points: 2.5
       experience: 2.5
     dark_prismarine:
-      income: 2.5
+      income: 15.0
       points: 2.5
       experience: 2.5
   Place:
